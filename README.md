@@ -58,6 +58,11 @@ __Call Charges__
 | Call Type                  | Label for the call type                                   |
 | Call Charges / Min (YYYY)  | Amount charged per minute for each call type and year   |
 
+# Data Modeling and Relationships
+
+In Power BI, a comprehensive data model was developed to create relationships between various tables. By defining primary and foreign keys, we established connections that facilitate seamless data interaction. Measures were created to aggregate key metrics, such as total call duration and SLA compliance rates, enhancing our ability to analyze and visualize data effectively. 
+
+![image](https://github.com/TetianaShchudla/Call_Center-PowerBI/blob/main/Images/model.png)
 
 # Report Findings
 
