@@ -9,34 +9,51 @@ This project focuses on analyzing call center data for _ServiceSpot_, an IT comp
 ## CSV Files (Data YYYY)
 These files contain call data for each year, with _the following columns_:
 
-- _CallTimestamp:_ Date and time of the call
-- _Call Type:_ Type of call
-- _EmployeeID:_ Unique ID for the employee
-- _CallDuration:_ Duration of the call in seconds
-- _WaitTime:_ Wait time in seconds
-- _CallAbandoned:_ Indicates if the call was abandoned (1 = Yes, 0 = No)
+| **Column Name**   | **Description**                             |
+|-------------------|---------------------------------------------|
+| CallTimestamp      | Date and time of the call                  |
+| Call Type          | Type of call                                |
+| EmployeeID         | Unique ID for the employee                  |
+| CallDuration       | Duration of the call in seconds             |
+| WaitTime           | Wait time in seconds                        |
+| CallAbandoned      | Indicates if the call was abandoned (1 = Yes, 0 = No) |
 
 ## Lookup Data
 
 __Employees__
-- _EmployeeID:_ Unique ID for the employee
-- _EmployeeName:_ Full name of the employee
-- _Site:_ Site name where the employee works
-- _ManagerName:_ Employee's manager
-  
+
+| **Column Name**  | **Description**                           |
+|------------------|-------------------------------------------|
+| EmployeeID       | Unique ID for the employee                |
+| EmployeeName     | Full name of the employee                 |
+| Site             | Site name where the employee works        |
+| ManagerName      | Employee's manager                        |
+
 __Call Types__
-- _CallTypeID:_ Unique ID for the call type
-- _CallTypeLabel:_ Label for the call type
+
+| **Column Name**  | **Description**                              |
+|------------------|----------------------------------------------|
+| CallTypeID       | Unique ID for the call type                  |
+| CallTypeLabel    | Label for the call type                       |
+
 
 __U.S. States__
-- _StateCD:_ 2-letter state code
-- _Name:_ Name of the state
-- _Region:_ Name of the U.S. region (East, West, etc.)
+
+| **Column Name** | **Description**                              |
+|-----------------|----------------------------------------------|
+| StateCD         | 2-letter state code                          |
+| Name            | Name of the state                            |
+| Region          | Name of the U.S. region (East, West, etc.) |
+
 
 __Call Charges__
-- _Call Type Key:_ Unique ID for the call type
-- _Call Type:_ Label for the call type
-- _Call Charges / Min (YYYY):_ Amount charged per minute for each call type and year
+
+| **Column Name**            | **Description**                                           |
+|----------------------------|-----------------------------------------------------------|
+| Call Type Key              | Unique ID for the call type                              |
+| Call Type                  | Label for the call type                                   |
+| Call Charges / Min (YYYY)  | Amount charged per minute for each call type and year   |
+
 
 # Report Findings
 
