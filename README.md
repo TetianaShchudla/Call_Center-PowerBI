@@ -1,5 +1,7 @@
 # Call Center Analysis Project
 
+[image](https://github.com/TetianaShchudla/Call_Center-PowerBI/blob/main/Images/callcenter.png)
+
 # Overview
 This project focuses on analyzing call center data for _ServiceSpot_, an IT company. __The goal__ is to provide insights through visually appealing reports using Power BI. The data, sourced from multiple files, includes call details, employee information, call types, U.S. states, and call charges.
 
